@@ -29,8 +29,8 @@ export const defaultContent = {
             highlights: {
                 title: "Featured Products",
                 items: [
-                    { name: "Servo Driver X1", desc: "High precision servo driver.", image: "https://placehold.co/400x300?text=Servo+Driver" },
-                    { name: "PLC Controller", desc: "Robust visual logic controller.", image: "https://placehold.co/400x300?text=PLC+Controller" }
+                    { name: "Servo Driver X1", desc: "High precision servo driver.", image: "assets/uploads/Servo Driver X1.png" },
+                    { name: "PLC Controller", desc: "Robust visual logic controller.", image: "assets/uploads/PLCController.webp" }
                 ]
             }
         },
@@ -58,51 +58,51 @@ export const defaultContent = {
                         {
                             name: "Rotary Converter",
                             specs: "Efficient Phase Conversion",
-                            image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=400",
+                            image: "assets/uploads/Rotary Converter.jpg",
                             model3d: "https://modelviewer.dev/shared-assets/models/RobotExpressive.glb",
                             tags: ["High Efficiency", "Industrial", "Available"]
                         },
                         {
                             name: "Electric Motors",
                             specs: "High Efficiency Industrial Motors",
-                            image: "https://images.unsplash.com/photo-1621252179027-94459d27d3ee?auto=format&fit=crop&q=80&w=400",
+                            image: "assets/uploads/Electric Motors.jpg",
                             tags: ["Heavy Duty", "Industrial"]
                         },
                         {
                             name: "Single Phase Electric Motor",
                             specs: "Domestic & Light Industrial",
-                            image: "https://images.unsplash.com/photo-1562408590-e32931084e23?auto=format&fit=crop&q=80&w=400",
+                            image: "assets/uploads/Single Phase Electric Motor.jpg",
                             tags: ["Domestic", "Single Phase"]
                         },
-                        { name: "Three Phase Electric Motor", specs: "Heavy Duty Industrial", image: "https://images.unsplash.com/photo-1595186637375-7b56d3544bf7?auto=format&fit=crop&q=80&w=400" },
-                        { name: "Electric Power Generator", specs: "Reliable Backup Power", image: "https://images.unsplash.com/photo-1486262715619-72a604e3d7b9?auto=format&fit=crop&q=80&w=400" }
+                        { name: "Three Phase Electric Motor", specs: "Heavy Duty Industrial", image: "assets/uploads/Three Phase Electric Motor.jpg" },
+                        { name: "Electric Power Generator", specs: "Reliable Backup Power", image: "assets/uploads/Electric Power Generator.jpg" }
                     ]
                 },
                 {
                     id: "tools",
                     title: "Industrial Tools",
                     products: [
-                        { name: "Hand Tools", specs: "Precision Engineering Tools", image: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&q=80&w=400" },
-                        { name: "Hydraulic Tools", specs: "High Force Application", image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=400" },
-                        { name: "Pneumatic Tools", specs: "Air Powered Efficiency", image: "https://images.unsplash.com/photo-1581093588402-4857474d2298?auto=format&fit=crop&q=80&w=400" }
+                        { name: "Hand Tools", specs: "Precision Engineering Tools", image: "assets/uploads/Hand Tools.jpg" },
+                        { name: "Hydraulic Tools", specs: "High Force Application", image: "assets/uploads/Hydraulic Tools.jpg" },
+                        { name: "Pneumatic Tools", specs: "Air Powered Efficiency", image: "assets/uploads/Pneumatic Tools.jpg" }
                     ]
                 },
                 {
                     id: "electrical",
                     title: "Electrical Components",
                     products: [
-                        { name: "Electric Control Panel", specs: "Custom Automation Control", image: "https://images.unsplash.com/photo-1581092336129-941031d22223?auto=format&fit=crop&q=80&w=400" },
-                        { name: "Electrical Switch Board", specs: "Power Distribution", image: "https://images.unsplash.com/photo-1621905251189-08b96133a8d4?auto=format&fit=crop&q=80&w=400" },
-                        { name: "Electrical Fuse", specs: "Circuit Protection", image: "https://images.unsplash.com/photo-1555664424-778a69022353?auto=format&fit=crop&q=80&w=400" }
+                        { name: "Electric Control Panel", specs: "Custom Automation Control", image: "assets/uploads/Electric Control Panel.jpg" },
+                        { name: "Electrical Switch Board", specs: "Power Distribution", image: "assets/uploads/Electrical Switch Board.jpg" },
+                        { name: "Electrical Fuse", specs: "Circuit Protection", image: "assets/uploads/Electrical Fuse.jpg" }
                     ]
                 },
                 {
                     id: "automotive",
                     title: "Automotive Parts",
                     products: [
-                        { name: "Automotive Components", specs: "OEM Quality Standards", image: "https://images.unsplash.com/photo-1486006920555-c77dcf18193c?auto=format&fit=crop&q=80&w=400" },
-                        { name: "Automotive Plastic Components", specs: "Durable & Lightweight", image: "https://images.unsplash.com/photo-1530983854251-c1e4c767be89?auto=format&fit=crop&q=80&w=400" },
-                        { name: "Automotive Spare Parts", specs: "Wide Range Available", image: "https://images.unsplash.com/photo-1489824904134-891ab6453954?auto=format&fit=crop&q=80&w=400" }
+                        { name: "Automotive Components", specs: "OEM Quality Standards", image: "assets/uploads/Automotive Components.jpg" },
+                        { name: "Automotive Plastic Components", specs: "Durable & Lightweight", image: "assets/uploads/Automotive Plastic Components.jpg" },
+                        { name: "Automotive Spare Parts", specs: "Wide Range Available", image: "assets/uploads/Automotive Spare Parts.jpg" }
                     ]
                 }
             ]
